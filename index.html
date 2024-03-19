@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <title>Cuy</title>
+  </head>
+  <body>
+    <!-- Nav Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Grey</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Others</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/contact/">Contact</a></li>
+                <li><a class="dropdown-item" href="/gallery/">Gallery</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="/sosmed/">Social Media</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav End -->
+
+    <!-- First Layout Start -->
+    <div class="container-fluid bg-dark text-light">
+      <!-- Carousel Start -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://picsum.photos/1200/500?grayscale&?random=1" class="d-block w-100" alt="1" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/1200/500?grayscale&?random=2" class="d-block w-100" alt="2" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/1200/500?grayscale&?random=3" class="d-block w-100" alt="3" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Carousel End -->
+
+      <!-- Content Start -->
+      <div class="row align-items-center text-center mt-4">
+        <div class="col-12">
+          <img src="assets/Mad.jpeg" alt="Mad" style="filter: grayscale(100%)" />
+          <h2 class="mt-2">Mad</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus at ipsa temporibus corrupti dolorem ratione nostrum vitae quo maxime quam?</p>
+        </div>
+      </div>
+      <!-- Content End -->
+
+      <!-- Card Start -->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/1200/500?grayscale&?random=4" class="card-img-top" alt="1" />
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, maxime ad voluptatibus porro vitae sit sapiente sed adipisci! Voluptate aperiam aliquid consectetur fuga aliquam corporis?</p>
+            </div>
+            <a href="#" class="btn btn-dark">Go somewhere</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/1200/500?grayscale&?random=5" class="card-img-top" alt="2" />
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis fugiat saepe deserunt dignissimos ut quos inventore, pariatur, totam aut facere voluptates adipisci a. Dicta, accusamus?</p>
+            </div>
+            <a href="#" class="btn btn-dark">Go somewhere</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/1200/500?grayscale&?random=6" class="card-img-top" alt="3" />
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus eum laboriosam ipsum delectus quia quasi iusto, velit, aliquam vel, neque ea in provident aut deserunt?</p>
+            </div>
+            <a href="#" class="btn btn-dark">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card End -->
+    </div>
+    <!-- First Layout End -->
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
